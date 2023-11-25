@@ -1,0 +1,15 @@
+#inputdiv{
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+input{
+    width:50%;
+    height: 25px;
+}
+#displaybutton{
+    width:200px;
+    height: 40px;
+    color:navy;
+    border:1px solid navy;
+}

@@ -6,5 +6,18 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'task4';
+  isStyled: boolean = false;
+  fontSize: number = 15;
+  fontWeight: number = 400;
+  welcomeMessage: string = '';
+
+  applyStyles() {
+    this.isStyled = true;
+    this.fontSize = 25;
+    this.fontWeight = 700;
+  }
+
+  updateWelcomeMessage(name: string) {
+    this.welcomeMessage = name;
+  }
 }
